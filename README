@@ -1,0 +1,28 @@
+RAW transaction:
+0200000000010111b6e0460bb810b05744f8d38262f95fbab02b168b070598a6f31fad438fced4000000001716001427c106013c0042da165c082b3870c31fb3ab4683feffffff0200ca9a3b0000000017a914d8b6fcc85a383261df05423ddf068a8987bf0287873067a3fa0100000017a914d5df0b9ca6c0e1ba60a9ff29359d2600d9c6659d870247304402203b85cb05b43cc68df72e2e54c6cb508aa324a5de0c53f1bbfe997cbd7509774d022041e1b1823bdaddcd6581d7cde6e6a4c4dbef483e42e59e04dbacbaf537c3e3e8012103fbbdb3b3fc3abbbd983b20a557445fb041d6f21cc5977d2121971cb1ce5298978c000000
+
+Human Readable:
+Version: 02000000
+Flag: 0001 (if present, indicates segwit)
+Input Count: 01
+Input 1 Previous Output Hash: 11b6e0460bb810b05744f8d38262f95fbab02b168b070598a6f31fad438fced4
+Input 1 Previous Output Index: 00000000
+Input 1 script length: 0x17 (23 bytes)
+Input 1 signature script: 16001427c106013c0042da165c082b3870c31fb3ab4683
+Input 1 sequence: feffffff
+Output Count: 02
+Output 1 Value: 00ca9a3b00000000 (1B satoshis / 10 BTC)
+Output 1 public key script length: 0x17 (23 bytes)
+Output 1 public key script: a914d8b6fcc85a383261df05423ddf068a8987bf028787
+Output 2 Value: 3067a3fa01000000 (8499980080 sats / 84.9998008 BTC)
+Output 2 public key script length: 0x17 (23 bytes)
+Output 2 public key script: a914d5df0b9ca6c0e1ba60a9ff29359d2600d9c6659d87
+Witness Count: 02
+Witness 1 length: 0x47 (71 bytes)
+Witness 1: 304402203b85cb05b43cc68df72e2e54c6cb508aa324a5de0c53f1bbfe997cbd7509774d022041e1b1823bdaddcd6581d7cde6e6a4c4dbef483e42e59e04dbacbaf537c3e3e801
+Witness 2 length: 0x21 (33 bytes)
+Witness 2: 03fbbdb3b3fc3abbbd983b20a557445fb041d6f21cc5977d2121971cb1ce529897
+Locktime: 8c000000 (block 140)
+
+TODO:
+-create console tool to translate RAW to human readable form
