@@ -24,5 +24,7 @@ Witness 2 length: 0x21 (33 bytes)
 Witness 2: 03fbbdb3b3fc3abbbd983b20a557445fb041d6f21cc5977d2121971cb1ce529897
 Locktime: 8c000000 (block 140)
 
+example source from https://medium.com/coinmonks/how-to-create-a-raw-bitcoin-transaction-step-by-step-239b888e87f2
+
 TODO:
 -create console tool to translate RAW to human readable form
